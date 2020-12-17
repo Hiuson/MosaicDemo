@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88DB5CFF258B083A007D6B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DB5CFE258B083A007D6B49 /* AppDelegate.swift */; };
+		88DB5D01258B083A007D6B49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DB5D00258B083A007D6B49 /* SceneDelegate.swift */; };
+		88DB5D03258B083A007D6B49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DB5D02258B083A007D6B49 /* ViewController.swift */; };
+		88DB5D06258B083A007D6B49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88DB5D04258B083A007D6B49 /* Main.storyboard */; };
+		88DB5D08258B083C007D6B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88DB5D07258B083C007D6B49 /* Assets.xcassets */; };
+		88DB5D0B258B083C007D6B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88DB5D09258B083C007D6B49 /* LaunchScreen.storyboard */; };
+		88DB5D16258B083D007D6B49 /* MasicDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DB5D15258B083D007D6B49 /* MasicDemoTests.swift */; };
+		88DB5D21258B083D007D6B49 /* MasicDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DB5D20258B083D007D6B49 /* MasicDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88DB5D12258B083D007D6B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88DB5CF3258B083A007D6B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88DB5CFA258B083A007D6B49;
+			remoteInfo = MasicDemo;
+		};
+		88DB5D1D258B083D007D6B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88DB5CF3258B083A007D6B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88DB5CFA258B083A007D6B49;
+			remoteInfo = MasicDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88DB5CFB258B083A007D6B49 /* MasicDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasicDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88DB5CFE258B083A007D6B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88DB5D00258B083A007D6B49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		88DB5D02258B083A007D6B49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88DB5D05258B083A007D6B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88DB5D07258B083C007D6B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88DB5D0A258B083C007D6B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88DB5D0C258B083C007D6B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88DB5D11258B083D007D6B49 /* MasicDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasicDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88DB5D15258B083D007D6B49 /* MasicDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasicDemoTests.swift; sourceTree = "<group>"; };
+		88DB5D17258B083D007D6B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88DB5D1C258B083D007D6B49 /* MasicDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasicDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88DB5D20258B083D007D6B49 /* MasicDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasicDemoUITests.swift; sourceTree = "<group>"; };
+		88DB5D22258B083D007D6B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88DB5CF8258B083A007D6B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88DB5D0E258B083D007D6B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88DB5D19258B083D007D6B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88DB5CF2258B083A007D6B49 = {
+			isa = PBXGroup;
+			children = (
+				88DB5CFD258B083A007D6B49 /* MasicDemo */,
+				88DB5D14258B083D007D6B49 /* MasicDemoTests */,
+				88DB5D1F258B083D007D6B49 /* MasicDemoUITests */,
+				88DB5CFC258B083A007D6B49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88DB5CFC258B083A007D6B49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88DB5CFB258B083A007D6B49 /* MasicDemo.app */,
+				88DB5D11258B083D007D6B49 /* MasicDemoTests.xctest */,
+				88DB5D1C258B083D007D6B49 /* MasicDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88DB5CFD258B083A007D6B49 /* MasicDemo */ = {
+			isa = PBXGroup;
+			children = (
+				88DB5CFE258B083A007D6B49 /* AppDelegate.swift */,
+				88DB5D00258B083A007D6B49 /* SceneDelegate.swift */,
+				88DB5D02258B083A007D6B49 /* ViewController.swift */,
+				88DB5D04258B083A007D6B49 /* Main.storyboard */,
+				88DB5D07258B083C007D6B49 /* Assets.xcassets */,
+				88DB5D09258B083C007D6B49 /* LaunchScreen.storyboard */,
+				88DB5D0C258B083C007D6B49 /* Info.plist */,
+			);
+			path = MasicDemo;
+			sourceTree = "<group>";
+		};
+		88DB5D14258B083D007D6B49 /* MasicDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				88DB5D15258B083D007D6B49 /* MasicDemoTests.swift */,
+				88DB5D17258B083D007D6B49 /* Info.plist */,
+			);
+			path = MasicDemoTests;
+			sourceTree = "<group>";
+		};
+		88DB5D1F258B083D007D6B49 /* MasicDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88DB5D20258B083D007D6B49 /* MasicDemoUITests.swift */,
+				88DB5D22258B083D007D6B49 /* Info.plist */,
+			);
+			path = MasicDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88DB5CFA258B083A007D6B49 /* MasicDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88DB5D25258B083D007D6B49 /* Build configuration list for PBXNativeTarget "MasicDemo" */;
+			buildPhases = (
+				88DB5CF7258B083A007D6B49 /* Sources */,
+				88DB5CF8258B083A007D6B49 /* Frameworks */,
+				88DB5CF9258B083A007D6B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MasicDemo;
+			productName = MasicDemo;
+			productReference = 88DB5CFB258B083A007D6B49 /* MasicDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88DB5D10258B083D007D6B49 /* MasicDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88DB5D28258B083D007D6B49 /* Build configuration list for PBXNativeTarget "MasicDemoTests" */;
+			buildPhases = (
+				88DB5D0D258B083D007D6B49 /* Sources */,
+				88DB5D0E258B083D007D6B49 /* Frameworks */,
+				88DB5D0F258B083D007D6B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88DB5D13258B083D007D6B49 /* PBXTargetDependency */,
+			);
+			name = MasicDemoTests;
+			productName = MasicDemoTests;
+			productReference = 88DB5D11258B083D007D6B49 /* MasicDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88DB5D1B258B083D007D6B49 /* MasicDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88DB5D2B258B083D007D6B49 /* Build configuration list for PBXNativeTarget "MasicDemoUITests" */;
+			buildPhases = (
+				88DB5D18258B083D007D6B49 /* Sources */,
+				88DB5D19258B083D007D6B49 /* Frameworks */,
+				88DB5D1A258B083D007D6B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88DB5D1E258B083D007D6B49 /* PBXTargetDependency */,
+			);
+			name = MasicDemoUITests;
+			productName = MasicDemoUITests;
+			productReference = 88DB5D1C258B083D007D6B49 /* MasicDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88DB5CF3258B083A007D6B49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					88DB5CFA258B083A007D6B49 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					88DB5D10258B083D007D6B49 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 88DB5CFA258B083A007D6B49;
+					};
+					88DB5D1B258B083D007D6B49 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 88DB5CFA258B083A007D6B49;
+					};
+				};
+			};
+			buildConfigurationList = 88DB5CF6258B083A007D6B49 /* Build configuration list for PBXProject "MasicDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88DB5CF2258B083A007D6B49;
+			productRefGroup = 88DB5CFC258B083A007D6B49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88DB5CFA258B083A007D6B49 /* MasicDemo */,
+				88DB5D10258B083D007D6B49 /* MasicDemoTests */,
+				88DB5D1B258B083D007D6B49 /* MasicDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88DB5CF9258B083A007D6B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DB5D0B258B083C007D6B49 /* LaunchScreen.storyboard in Resources */,
+				88DB5D08258B083C007D6B49 /* Assets.xcassets in Resources */,
+				88DB5D06258B083A007D6B49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88DB5D0F258B083D007D6B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88DB5D1A258B083D007D6B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88DB5CF7258B083A007D6B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DB5D03258B083A007D6B49 /* ViewController.swift in Sources */,
+				88DB5CFF258B083A007D6B49 /* AppDelegate.swift in Sources */,
+				88DB5D01258B083A007D6B49 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88DB5D0D258B083D007D6B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DB5D16258B083D007D6B49 /* MasicDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88DB5D18258B083D007D6B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DB5D21258B083D007D6B49 /* MasicDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88DB5D13258B083D007D6B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88DB5CFA258B083A007D6B49 /* MasicDemo */;
+			targetProxy = 88DB5D12258B083D007D6B49 /* PBXContainerItemProxy */;
+		};
+		88DB5D1E258B083D007D6B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88DB5CFA258B083A007D6B49 /* MasicDemo */;
+			targetProxy = 88DB5D1D258B083D007D6B49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88DB5D04258B083A007D6B49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88DB5D05258B083A007D6B49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88DB5D09258B083C007D6B49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88DB5D0A258B083C007D6B49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88DB5D23258B083D007D6B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88DB5D24258B083D007D6B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88DB5D26258B083D007D6B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74T9HZDA37;
+				INFOPLIST_FILE = MasicDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hiuson.MasicDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88DB5D27258B083D007D6B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74T9HZDA37;
+				INFOPLIST_FILE = MasicDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hiuson.MasicDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88DB5D29258B083D007D6B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74T9HZDA37;
+				INFOPLIST_FILE = MasicDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hiuson.MasicDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MasicDemo.app/MasicDemo";
+			};
+			name = Debug;
+		};
+		88DB5D2A258B083D007D6B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74T9HZDA37;
+				INFOPLIST_FILE = MasicDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hiuson.MasicDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MasicDemo.app/MasicDemo";
+			};
+			name = Release;
+		};
+		88DB5D2C258B083D007D6B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74T9HZDA37;
+				INFOPLIST_FILE = MasicDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hiuson.MasicDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MasicDemo;
+			};
+			name = Debug;
+		};
+		88DB5D2D258B083D007D6B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74T9HZDA37;
+				INFOPLIST_FILE = MasicDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hiuson.MasicDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MasicDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88DB5CF6258B083A007D6B49 /* Build configuration list for PBXProject "MasicDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88DB5D23258B083D007D6B49 /* Debug */,
+				88DB5D24258B083D007D6B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88DB5D25258B083D007D6B49 /* Build configuration list for PBXNativeTarget "MasicDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88DB5D26258B083D007D6B49 /* Debug */,
+				88DB5D27258B083D007D6B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88DB5D28258B083D007D6B49 /* Build configuration list for PBXNativeTarget "MasicDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88DB5D29258B083D007D6B49 /* Debug */,
+				88DB5D2A258B083D007D6B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88DB5D2B258B083D007D6B49 /* Build configuration list for PBXNativeTarget "MasicDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88DB5D2C258B083D007D6B49 /* Debug */,
+				88DB5D2D258B083D007D6B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88DB5CF3258B083A007D6B49 /* Project object */;
+}
